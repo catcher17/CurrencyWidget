@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_bar_converter"
+        android:icon="@drawable/exchange_icon"
+        android:title="@string/exchange"
+    />
+    <item
+        android:id="@+id/navigation_bar_currencies"
+        android:icon="@drawable/main_screen_list"
+        android:title="@string/currency_list"
+        />
+    <item
+        android:id="@+id/navigation_bar_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"
+        />
+</menu>

@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.CurrencyWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:theme="@style/Theme.CurrencyWidget.AppWidgetContainer">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="2"
+        >
+
+        <TextView
+            android:id="@+id/widgetFromCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_currency"
+            android:textColor="#546E7A"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <TextView
+            android:id="@+id/widgetToCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_currency"
+            android:textColor="#546E7A"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <TextView
+            android:id="@+id/widgetCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/to_currency"
+            android:textColor="#546E7A" />
+
+        <TextView
+            android:id="@+id/widgetResultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="@string/to_currency"
+            android:textColor="#546E7A" />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/widgetImageButton1"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/one"
+            app:srcCompat="@drawable/one"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton2"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/two"
+            app:srcCompat="@drawable/two"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton3"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/three"
+            app:srcCompat="@drawable/three"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+
+        <ImageButton
+            android:id="@+id/widgetDeleteButton"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/delete"
+            app:srcCompat="@drawable/delete"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/widgetImageButton4"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/four"
+            app:srcCompat="@drawable/four"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton5"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/five"
+            app:srcCompat="@drawable/five"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton6"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/six"
+            app:srcCompat="@drawable/six"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetSettingsButton"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/settings"
+            app:srcCompat="@drawable/settings"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="4">
+
+        <ImageButton
+            android:id="@+id/widgetImageButton7"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/seven"
+            app:srcCompat="@drawable/seven"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton8"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/eight"
+            app:srcCompat="@drawable/eight"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton9"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/nine"
+            app:srcCompat="@drawable/nine"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/widgetImageButton0"
+            style="@style/WidgetImageButtons"
+            android:src="@drawable/zero"
+            app:srcCompat="@drawable/zero"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+</LinearLayout>

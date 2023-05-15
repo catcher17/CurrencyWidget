@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CurrencyWidget</string>
+    <string name="appwidget_text">CurrencyWidget</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">Calculate currency on screen</string>
+    <string name="from_currency">From Currency</string>
+    <string name="to_currency">To Currency</string>
+    <string name="currency_list">Currency list</string>
+    <string name="exchange">Exchange</string>
+    <string name="settings">Settings</string>
+    <string name="exchange_rate">Exchange rate: %1$s</string>
+
+</resources>
